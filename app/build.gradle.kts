@@ -33,6 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -59,6 +63,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation(libs.androidx.activity)   // lifecycleScope
 
+    implementation("androidx.cardview:cardview:1.0.0")
     // Testing (sudah ada, hanya sebagai referensi)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

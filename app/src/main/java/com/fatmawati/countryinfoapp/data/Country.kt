@@ -19,5 +19,5 @@ data class Name(
 
 data class CurrencyDetail(
     @SerializedName("name") val name: String,
-    @SerializedName("symbol") val symbol: String?
+    val symbol: String? // Tidak ada SerializedName jika nama variabel sama
 )

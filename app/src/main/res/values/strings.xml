@@ -1,3 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CountryInfoApp</string>
+    <string name="hint_country_name">Masukkan nama negara (e.g. Indonesia)</string>
+    <string name="search_button_text">Cari</string>
+    <string name="country_name_label">Nama Negara</string>
+    <string name="official_name_label">Nama Resmi:</string>
+    <string name="capital_label">Ibu Kota:</string>
+    <string name="population_label">Populasi:</string>
+    <string name="continent_label">Benua:</string>
+    <string name="subcontinent_label">Sub-Benua:</string>
+    <string name="languages_label">Bahasa:</string>
+    <string name="currencies_label">Mata Uang:</string>
+    <string name="not_available">N/A</string>
 </resources>

@@ -10,7 +10,6 @@ object RetrofitClient {
 
     val instance: RestCountriesApi by lazy {
         val logging = HttpLoggingInterceptor().apply {
-            // Level BODY akan mencetak request dan response body
             setLevel(HttpLoggingInterceptor.Level.BODY)
         }
 
